@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Black">
+    <option name="executionMode" value="BINARY" />
+    <option name="pathToExecutable" value="C:\Users\HP\anaconda3\Scripts\black.exe" />
+    <option name="sdkUUID" value="836377c6-bae7-4383-97b7-e1974a1617a9" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.11 (ProjectSecurin)" project-jdk-type="Python SDK" />
+  <component name="PyCharmProfessionalAdvertiser">
+    <option name="shown" value="true" />
+  </component>
+</project>
