@@ -6,9 +6,9 @@
    Instructions on how to get a copy of the project up and running on your local machine for development
 ## UI Screenshots
 #### CVE TABLE PAGE 
-![detailPage](website/static/detail-page.png)
+![table page](website/static/tablepage.png)
 #### CVE DETAILS PAGE
-![detailPage](website/static/detail-page.png)
+![detailPage](website/static/detailpage.png)
 
 ## Functional Approach
 ### Project Overview:
