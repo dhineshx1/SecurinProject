@@ -22,7 +22,7 @@ def data_synchronization():
         start_records = dbmodels.Database().total_records_in_db()
 
         # Scheduling a task to fetch data from the API every hour
-        schedule.every().hour.do(dbmodels.Database().fetch_data_from_api(start_records))
+        schedule.every().minute.do(dbmodels.Database().fetch_data_from_api(start_records))
 
         # Running the schedule continuously
         while True:

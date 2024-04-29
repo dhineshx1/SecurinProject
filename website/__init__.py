@@ -1,4 +1,13 @@
 from flask import Flask  # Importing the Flask class from the Flask framework
+from . import data_sync
+import threading
+def run_data_sync():
+    """
+        Function to run the data synchronization process.
+
+        This function initiates the data synchronization process defined in the data_sync module.
+    """
+    data_sync.data_synchronization()
 
 
 def create_app():
@@ -18,3 +27,4 @@ def create_app():
     app.register_blueprint(views, url_prefix='/')
 
     return app  # Returning the configured Flask application instance
+
